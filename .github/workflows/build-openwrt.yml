@@ -67,7 +67,7 @@ jobs:
       working-directory: /workdir
       run: |
         df -hT $PWD
-        git clone https://github.com/yichya/luci-app-xray openwrt/packages
+        git clone https://github.com/yichya/luci-app-xray openwrt/package/luci-app-xray
 
     - name: Load custom feeds
       run: |
